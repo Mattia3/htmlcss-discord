@@ -31,27 +31,29 @@
 
  .row > *{
    float: left;
-}      
+}
 
+.row-2 > *{
+  float: right;
+}
 
+.row-2::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+                  /*fine list utility*/
 
 
 .background-header{
   background-image: url(../img/img/jumbo.png);
   background-size: cover;
   background-position-y: center;
-  height: 700px;
 } 
   
-
-
-.container{
+.container-nav{
   padding-top: 25px;
-}
-
-.logo-discord{
- vertical-align: middle;
- display: inline-block;
 }
 
 nav ul li a {
@@ -74,12 +76,9 @@ nav ul li a {
   background-color: white;
   color: black;
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 26px;;
   border-radius: 4em / 4em;
-  padding-right: 26px;
-  padding-left: 26px;
 }
-
 
 .btn-right{
   text-align: right;
@@ -87,8 +86,6 @@ nav ul li a {
 }
 
                           /*fine nav*/
-
-
 
 .header-title{
   font-size: 35px;
@@ -100,22 +97,18 @@ nav ul li a {
   padding-top: 150px;
   margin: 0 auto;
   color: white;
+  padding-bottom: 200px;
 }
 
 .header-text{
-  padding-top: 25px;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.botton{
-  padding-top: 30px;
+  padding: 25px 30px;
+  font-size: 15px;
 }
 
 .btn-black{
-  background-color: black;
+  background-color: rgba(35,39,42,255);
   color: white;
-  padding: 10px;
+  padding: 10px 26px;
   border-radius: 4em / 4em;
   text-decoration: none;
   padding-left: 25px;
@@ -131,7 +124,7 @@ nav ul li a {
                                     /*Inizio main central*/
 
 .image-col{
-  max-width: 450px;
+  max-width: 500px;
   padding-top: 150px;
   padding-bottom: 200px;
   vertical-align: middle;
@@ -141,22 +134,11 @@ nav ul li a {
   padding-top: 180px;
   font-weight: 900;
   font-size: 34px;
-  vertical-align: middle;
   padding-bottom: 20px;
 }
 
-.row-2 > *{
-  float: right;
-}
-
-.row-2::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-  
 .text-col_2{
-  margin-right: 163px;
+  margin-right: 113px;
 }
   
                          /*Fine main central*/
@@ -166,15 +148,100 @@ nav ul li a {
 
                          
 .text-main_final{
-  text-align: center;
   font-weight: 900;
   font-size: 42px;
   padding-bottom: 25px;
 }
 
-
-.paragrafo_final{
+.container-main_final{
   text-align: center;
 }
   
+.background-col{
+  background-color: rgba(246,246,246,255);
+}
+
+.title-final {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.star {
+  position: relative;
+  text-align: center;
+}
+
+.btn-blue {
+  border-radius: 4em / 4em;
+  text-decoration: none;
+  padding: 10px 26px;
+  background-color: rgba(142,161,225,255);
+  color: white;
+}
+                       /*Fine del main*/
+
+footer{
+  background-color: #23272A;
+  margin-top: 150px;
+}
+                       
+.title-footer{
+  font-size: 35px;
+  color: rgba(114,137,218,255);
+  padding-bottom: 20px;
+}
+
+.lista-footer{
+  list-style: none;
+  padding-top: 50px;
+ }
+
+.lista-footer li {
+  display: inline-block;
+}
+
+.flag-italy{
+  width: 26px;
+}
+
+.text-white{
+  color: white;
+  padding-bottom: 10px;
+}
+
+ .row  li{
+  list-style: none;
+}
+
+.social-container{
+  padding-top: 20px;
+  display: inline-flex;
+}
+
+.social{
+  padding-right: 20px;
+  font-size: 27px;
+  color: white;
+  display: inline-block;
+}
+
+
+.box-lista-footer{
+ padding-top: 62px;
+}
+
+.text-purple{
+  color: rgba(114,137,218,255);
+  padding-bottom: 10px;
+}
+
+.final-footer{
+  margin-right: 66%;
+}
+
+.final-box{
+  border-top: 1px solid rgba(114,137,218,255);
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
 
